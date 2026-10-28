@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Driver Logger</string>
+    <string name="service_description">Records on-screen text and screenshots from the selected driver apps so their layouts can be studied. It never taps or changes anything.</string>
+</resources>
