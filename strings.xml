@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Driver Logger</string>
+    <string name="service_description">Records what is on screen in the watched driver apps so the capture can be reviewed later. Nothing leaves the phone unless you export it.</string>
+</resources>
