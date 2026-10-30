@@ -1,0 +1,26 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.driverlogger'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.driverlogger"
+        minSdk 30
+        targetSdk 34
+        versionCode 7
+        versionName "3.3"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    // On-device text recognition (model is bundled, works offline). Used to read Uber offer cards.
+    implementation 'com.google.mlkit:text-recognition:16.0.0'
+}

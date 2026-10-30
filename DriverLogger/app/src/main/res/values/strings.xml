@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Driver Logger</string>
+    <string name="service_description">Reads offers in the watched driver apps (Uber, Lyft, hich), keeps a short history, and can pulse the screen on good offers. Nothing leaves the phone unless you export it. It never taps anything.</string>
+</resources>
